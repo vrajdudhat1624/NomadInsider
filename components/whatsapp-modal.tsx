@@ -55,7 +55,7 @@ export default function WhatsAppModal({ isOpen, onClose }: WhatsAppModalProps) {
 
         <div className="mb-6 overflow-hidden rounded-lg">
           <Image
-            src="/placeholder.svg?height=200&width=400&text=Nomad+Community"
+            src="/images/community/nomad-community.jpg"
             alt="Nomad Community"
             width={400}
             height={200}

@@ -55,9 +55,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 1,
     name: "Mexico City",
     location: "Mexico",
-    image: "/placeholder.svg?height=300&width=400&text=Mexico+City",
-    startingPrice: "$2,490",
-    startingPriceNumeric: 2490,
+    image: "/images/destinations/mexico-city.jpg",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description: "City of tacos, street art, and endless surprises. Think you've seen it all? Think again.",
     longDescription:
@@ -74,32 +74,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 101,
-        name: "Urban Explorer",
-        price: "$2,490",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description: "Experience the vibrant culture and energy of Mexico City with our premium workation package.",
+        description: "Essential workation experience in Mexico City with all the basics covered.",
         included: [
           "Private apartment in Roma or Condesa",
           "Dedicated workspace with ergonomic chair",
           "High-speed fiber internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (Historic Center, Teotihuacan, Coyoacan)",
+          "City tour",
           "24/7 travel support",
         ],
       },
       {
         id: 102,
-        name: "Mexico City Extended Stay",
-        price: "$4,490",
-        duration: "2 months",
-        description: "Immerse yourself in Mexico City's culture with our extended stay package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Mexico City experience with premium amenities and additional activities.",
         included: [
-          "All Urban Explorer inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
           "Spanish language crash course",
           "2 additional guided experiences",
           "Networking event with local professionals",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -121,9 +123,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=CDMX+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=CDMX+Apartment+2",
-        "/placeholder.svg?height=300&width=400&text=CDMX+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Located in safe, walkable neighborhoods",
@@ -150,9 +152,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 2,
     name: "Medellín",
     location: "Colombia",
-    image: "/placeholder.svg?height=300&width=400&text=Medellin+Colombia",
-    startingPrice: "$2,490",
-    startingPriceNumeric: 2490,
+    image: "/images/destinations/medellin-4k.png",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description:
       "The city of eternal spring. Medellín offers a vibrant culture, affordable living, and a thriving digital nomad community.",
@@ -170,33 +172,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 103,
-        name: "Eternal Spring",
-        price: "$2,490",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description:
-          "Experience the perfect climate and vibrant culture of Medellín with our premium workation package.",
+        description: "Essential workation experience in Medellín with all the basics covered.",
         included: [
           "Private apartment in El Poblado",
           "Dedicated workspace with ergonomic chair",
           "High-speed fiber internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (Comuna 13, City Tour, Guatapé)",
+          "City tour",
           "24/7 travel support",
         ],
       },
       {
         id: 104,
-        name: "Medellín Extended Stay",
-        price: "$4,490",
-        duration: "2 months",
-        description: "Immerse yourself in Medellín's culture with our extended stay package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Medellín experience with premium amenities and additional activities.",
         included: [
-          "All Eternal Spring inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
           "Spanish language crash course",
-          "2 additional guided experiences",
+          "2 additional guided experiences (Comuna 13, Guatapé)",
           "Networking event with local professionals",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -218,9 +221,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Medellin+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=Medellin+Apartment+2",
-        "/placeholder.svg?height=300&width=400&text=Medellin+View",
+        "/images/accommodations/medellin-apartment-1.jpg",
+        "/images/accommodations/medellin-apartment-2.jpg",
+        "/images/accommodations/medellin-view.jpg",
       ],
       highlights: [
         "Located in safe, upscale neighborhood",
@@ -247,9 +250,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 3,
     name: "Buenos Aires",
     location: "Argentina",
-    image: "/placeholder.svg?height=300&width=400&text=Buenos+Aires+Argentina",
-    startingPrice: "$2,490",
-    startingPriceNumeric: 2490,
+    image: "/images/destinations/buenos-aires.jpg",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description:
       "A city that dances to its own rhythm. Experience the passion of tango, rich history, and vibrant nightlife.",
@@ -267,32 +270,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 105,
-        name: "Tango & Tech",
-        price: "$2,490",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description: "Experience the passion and elegance of Buenos Aires with our premium workation package.",
+        description: "Essential workation experience in Buenos Aires with all the basics covered.",
         included: [
           "Private apartment in Palermo or Recoleta",
           "Dedicated workspace with ergonomic chair",
           "High-speed fiber internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (City Tour, Tango Show, San Telmo Market)",
+          "City tour",
           "24/7 travel support",
         ],
       },
       {
         id: 106,
-        name: "Buenos Aires Extended Stay",
-        price: "$4,490",
-        duration: "2 months",
-        description: "Immerse yourself in Buenos Aires' culture with our extended stay package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Buenos Aires experience with premium amenities and additional activities.",
         included: [
-          "All Tango & Tech inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
           "Spanish language crash course",
-          "2 additional guided experiences",
-          "Networking event with local professionals",
+          "Tango class experience",
+          "San Telmo market tour",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -314,9 +319,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Buenos+Aires+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=Buenos+Aires+Apartment+2",
-        "/placeholder.svg?height=300&width=400&text=Buenos+Aires+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Located in culturally rich neighborhoods",
@@ -343,10 +348,10 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 4,
     name: "Bogotá",
     location: "Colombia",
-    image: "/placeholder.svg?height=300&width=400&text=Bogota+Colombia",
-    startingPrice: "$750",
-    startingPriceNumeric: 750,
-    priceUnit: "week",
+    image: "/images/destinations/bogota.jpg",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
+    priceUnit: "month",
     description: "Where altitude meets attitude. Culture, coffee, and chaotic charm collide in Colombia's capital.",
     longDescription:
       "Bogotá, Colombia's high-altitude capital, offers a unique blend of colonial charm and urban sophistication. At 8,660 feet above sea level, the city enjoys a perpetual spring-like climate. Explore historic La Candelaria, visit world-class museums, and enjoy the thriving culinary scene. Our workation package places you in the modern northern districts with easy access to the city's best attractions while providing everything you need to stay productive.",
@@ -366,33 +371,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 107,
-        name: "Bogotá Weekly Explorer",
-        price: "$750",
-        duration: "1 week",
-        description: "Experience the vibrant culture and energy of Bogotá with our premium weekly package.",
+        name: "Basic Package",
+        price: "$1,499",
+        duration: "1 month",
+        description: "Essential workation experience in Bogotá with all the basics covered.",
         included: [
           "Private accommodation in Chapinero or Usaquén",
           "Dedicated workspace with ergonomic chair",
           "High-speed fiber internet",
           "Airport pickup",
           "Welcome dinner",
-          "City tour including Monserrate and Gold Museum",
+          "City tour including Monserrate",
           "24/7 travel support",
         ],
       },
       {
         id: 108,
-        name: "Bogotá Monthly Immersion",
-        price: "$2,490",
+        name: "Premium Package",
+        price: "$1,999",
         duration: "1 month",
-        description: "Immerse yourself in Bogotá's culture with our monthly package.",
+        description: "Enhanced Bogotá experience with premium amenities and additional activities.",
         included: [
-          "All Weekly Explorer inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
           "Spanish language crash course",
-          "2 additional guided experiences",
           "Day trip to Salt Cathedral of Zipaquirá",
           "Coffee tasting experience",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -414,9 +420,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Bogota+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=Bogota+Apartment+2",
-        "/placeholder.svg?height=300&width=400&text=Bogota+Workspace",
+        "/images/accommodations/medellin-apartment-1.jpg",
+        "/images/accommodations/medellin-apartment-2.jpg",
+        "/images/accommodations/medellin-view.jpg",
       ],
       highlights: [
         "Located in safe, trendy neighborhoods",
@@ -443,10 +449,10 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 5,
     name: "Santa Marta",
     location: "Colombia",
-    image: "/placeholder.svg?height=300&width=400&text=Santa+Marta+Colombia",
-    startingPrice: "$850",
-    startingPriceNumeric: 850,
-    priceUnit: "week",
+    image: "/images/destinations/santa-marta-4k.png",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
+    priceUnit: "month",
     description:
       "Santa Marta's blend of beaches, jungles, and history is the ultimate escape. Hike, relax, or explore—this coastal gem has it all.",
     longDescription:
@@ -467,10 +473,10 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 109,
-        name: "Santa Marta Weekly Escape",
-        price: "$850",
-        duration: "1 week",
-        description: "Experience the perfect blend of beach and productivity in Santa Marta.",
+        name: "Basic Package",
+        price: "$1,499",
+        duration: "1 month",
+        description: "Essential workation experience in Santa Marta with all the basics covered.",
         included: [
           "Private accommodation near the beach",
           "Dedicated workspace with ocean views",
@@ -483,17 +489,18 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
       },
       {
         id: 110,
-        name: "Santa Marta Monthly Paradise",
-        price: "$2,270",
+        name: "Premium Package",
+        price: "$1,999",
         duration: "1 month",
-        description: "Immerse yourself in Santa Marta's coastal lifestyle with our monthly package.",
+        description: "Enhanced Santa Marta experience with premium amenities and additional activities.",
         included: [
-          "All Weekly Escape inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
-          "2 additional guided experiences",
           "Lost City trek option",
           "Beach club access",
           "Sunset sailing experience",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -515,9 +522,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Santa+Marta+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=Santa+Marta+View",
-        "/placeholder.svg?height=300&width=400&text=Santa+Marta+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Walking distance to beaches",
@@ -544,9 +551,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 6,
     name: "Cancun",
     location: "Mexico",
-    image: "/placeholder.svg?height=300&width=400&text=Cancun+Mexico",
-    startingPrice: "$2,270",
-    startingPriceNumeric: 2270,
+    image: "/images/destinations/cancun-4k.png",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description:
       "White sands, turquoise waters, and adventure waiting around every corner. Cancun's got your next story.",
@@ -568,33 +575,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 111,
-        name: "Sandcastle Slacker",
-        price: "$2,270",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description: "Work from paradise with our premium Cancun workation package.",
+        description: "Essential workation experience in Cancun with all the basics covered.",
         included: [
           "Private accommodation near the beach",
           "Dedicated workspace with ocean views",
           "High-speed internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (Chichen Itza, Cenotes, Isla Mujeres)",
-          "Beach club access",
+          "Guided tour of Chichen Itza",
           "24/7 travel support",
         ],
       },
       {
         id: 112,
-        name: "Cancun Extended Paradise",
-        price: "$4,200",
-        duration: "2 months",
-        description: "Extend your stay in paradise with our two-month Cancun package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Cancun experience with premium amenities and additional activities.",
         included: [
-          "All Sandcastle Slacker inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
-          "2 additional guided experiences",
-          "Scuba diving or snorkeling excursion",
-          "Sunset sailing experience",
+          "Cenotes tour",
+          "Isla Mujeres day trip",
+          "Beach club access",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -617,9 +625,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Cancun+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=Cancun+Beach+View",
-        "/placeholder.svg?height=300&width=400&text=Cancun+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Walking distance to pristine beaches",
@@ -646,9 +654,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 7,
     name: "Santa Marta",
     location: "Colombia",
-    image: "/placeholder.svg?height=300&width=400&text=Santa+Marta+Beach",
-    startingPrice: "$2,270",
-    startingPriceNumeric: 2270,
+    image: "/images/destinations/santa-marta-beach.jpg",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description:
       "Sun, sand, and seamless work-life balance in Santa Marta. This package places you right on the beach with Wi-Fi that actually works.",
@@ -670,33 +678,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 113,
-        name: "Sandcastle Slacker",
-        price: "$2,270",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description: "Work from the Caribbean coast with our premium Santa Marta monthly package.",
+        description: "Essential workation experience in Santa Marta with all the basics covered.",
         included: [
           "Private beachside accommodation",
           "Dedicated workspace with ocean views",
           "High-speed internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (Tayrona Park, City Tour, Minca)",
-          "Beach club access",
+          "Guided tour of Tayrona Park",
           "24/7 travel support",
         ],
       },
       {
         id: 114,
-        name: "Santa Marta Extended Paradise",
-        price: "$4,200",
-        duration: "2 months",
-        description: "Extend your stay in Caribbean paradise with our two-month Santa Marta package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Santa Marta experience with premium amenities and additional activities.",
         included: [
-          "All Sandcastle Slacker inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
-          "2 additional guided experiences",
           "Lost City trek option",
+          "Beach club access",
           "Sunset sailing experience",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -719,9 +728,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Santa+Marta+Villa+1",
-        "/placeholder.svg?height=300&width=400&text=Santa+Marta+Beach+Access",
-        "/placeholder.svg?height=300&width=400&text=Santa+Marta+Villa+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Direct beach access",
@@ -748,9 +757,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 8,
     name: "Cartagena",
     location: "Colombia",
-    image: "/placeholder.svg?height=300&width=400&text=Cartagena+Colombia",
-    startingPrice: "$2,270",
-    startingPriceNumeric: 2270,
+    image: "/images/destinations/cartagena.jpg",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description:
       "Historic charm meets Caribbean vibes. Explore colonial architecture, vibrant streets, and coastal beauty.",
@@ -772,33 +781,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 115,
-        name: "Sandcastle Slacker",
-        price: "$2,270",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description: "Work from Colombia's most beautiful colonial city with our premium Cartagena package.",
+        description: "Essential workation experience in Cartagena with all the basics covered.",
         included: [
           "Private accommodation in or near the walled city",
           "Dedicated workspace",
           "High-speed internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (Walled City, Rosario Islands, Getsemani)",
-          "Beach club access",
+          "Guided tour of the Walled City",
           "24/7 travel support",
         ],
       },
       {
         id: 116,
-        name: "Cartagena Extended Magic",
-        price: "$4,200",
-        duration: "2 months",
-        description: "Extend your stay in magical Cartagena with our two-month package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Cartagena experience with premium amenities and additional activities.",
         included: [
-          "All Sandcastle Slacker inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
-          "2 additional guided experiences",
-          "Day trip to Palenque",
-          "Sunset sailing on the bay",
+          "Rosario Islands day trip",
+          "Getsemani neighborhood tour",
+          "Beach club access",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -820,9 +830,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Cartagena+Apartment+1",
-        "/placeholder.svg?height=300&width=400&text=Cartagena+Colonial+View",
-        "/placeholder.svg?height=300&width=400&text=Cartagena+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Located in or near the UNESCO World Heritage walled city",
@@ -849,9 +859,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     id: 9,
     name: "Tulum",
     location: "Mexico",
-    image: "/placeholder.svg?height=300&width=400&text=Tulum+Mexico",
-    startingPrice: "$2,270",
-    startingPriceNumeric: 2270,
+    image: "/images/destinations/tulum-4k.png",
+    startingPrice: "$1,499",
+    startingPriceNumeric: 1499,
     priceUnit: "month",
     description:
       "Bohemian paradise with pristine beaches and a laid-back atmosphere. Perfect for creatives and free spirits.",
@@ -873,33 +883,34 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     packages: [
       {
         id: 117,
-        name: "Sandcastle Slacker",
-        price: "$2,270",
+        name: "Basic Package",
+        price: "$1,499",
         duration: "1 month",
-        description: "Work from bohemian paradise with our premium Tulum workation package.",
+        description: "Essential workation experience in Tulum with all the basics covered.",
         included: [
           "Private accommodation near the beach or in town",
           "Dedicated workspace",
           "High-speed internet",
           "Airport pickup",
           "Welcome dinner",
-          "3 guided tours (Tulum Ruins, Cenotes, Sian Ka'an)",
-          "Beach club access",
+          "Guided tour of Tulum Ruins",
           "24/7 travel support",
         ],
       },
       {
         id: 118,
-        name: "Tulum Extended Bliss",
-        price: "$4,200",
-        duration: "2 months",
-        description: "Extend your stay in bohemian Tulum with our two-month package.",
+        name: "Premium Package",
+        price: "$1,999",
+        duration: "1 month",
+        description: "Enhanced Tulum experience with premium amenities and additional activities.",
         included: [
-          "All Sandcastle Slacker inclusions",
+          "All Basic Package inclusions",
           "Weekly cleaning service",
-          "2 additional guided experiences",
-          "Yoga classes",
-          "Coba ruins excursion",
+          "Cenotes tour",
+          "Sian Ka'an biosphere reserve trip",
+          "Beach club access",
+          "Premium workspace setup",
+          "Local SIM card with data",
         ],
       },
     ],
@@ -922,9 +933,9 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
         "Smart TV with streaming services",
       ],
       images: [
-        "/placeholder.svg?height=300&width=400&text=Tulum+Accommodation+1",
-        "/placeholder.svg?height=300&width=400&text=Tulum+Beach+View",
-        "/placeholder.svg?height=300&width=400&text=Tulum+Workspace",
+        "/images/accommodations/mexico-city-apartment-1.jpg",
+        "/images/accommodations/mexico-city-apartment-2.jpg",
+        "/images/accommodations/mexico-city-workspace.jpg",
       ],
       highlights: [
         "Eco-friendly design and amenities",
@@ -948,374 +959,3 @@ export const remoteCasaDestinations: RemoteCasaDestination[] = [
     },
   },
 ]
-
-// Update Mexico City pricing and packages
-const mexicoCity = remoteCasaDestinations.find((d) => d.id === 1)
-if (mexicoCity) {
-  mexicoCity.startingPrice = "$1,499"
-  mexicoCity.startingPriceNumeric = 1499
-  mexicoCity.packages = [
-    {
-      id: 101,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Mexico City with all the basics covered.",
-      included: [
-        "Private apartment in Roma or Condesa",
-        "Dedicated workspace with ergonomic chair",
-        "High-speed fiber internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "City tour",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 102,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Mexico City experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Spanish language crash course",
-        "2 additional guided experiences",
-        "Networking event with local professionals",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Medellín pricing and packages
-const medellin = remoteCasaDestinations.find((d) => d.id === 2)
-if (medellin) {
-  medellin.startingPrice = "$1,499"
-  medellin.startingPriceNumeric = 1499
-  medellin.packages = [
-    {
-      id: 103,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Medellín with all the basics covered.",
-      included: [
-        "Private apartment in El Poblado",
-        "Dedicated workspace with ergonomic chair",
-        "High-speed fiber internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "City tour",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 104,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Medellín experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Spanish language crash course",
-        "2 additional guided experiences (Comuna 13, Guatapé)",
-        "Networking event with local professionals",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Buenos Aires pricing and packages
-const buenosAires = remoteCasaDestinations.find((d) => d.id === 3)
-if (buenosAires) {
-  buenosAires.startingPrice = "$1,499"
-  buenosAires.startingPriceNumeric = 1499
-  buenosAires.packages = [
-    {
-      id: 105,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Buenos Aires with all the basics covered.",
-      included: [
-        "Private apartment in Palermo or Recoleta",
-        "Dedicated workspace with ergonomic chair",
-        "High-speed fiber internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "City tour",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 106,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Buenos Aires experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Spanish language crash course",
-        "Tango class experience",
-        "San Telmo market tour",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Bogotá pricing and packages
-const bogota = remoteCasaDestinations.find((d) => d.id === 4)
-if (bogota) {
-  bogota.startingPrice = "$1,499"
-  bogota.startingPriceNumeric = 1499
-  bogota.priceUnit = "month"
-  bogota.packages = [
-    {
-      id: 107,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Bogotá with all the basics covered.",
-      included: [
-        "Private accommodation in Chapinero or Usaquén",
-        "Dedicated workspace with ergonomic chair",
-        "High-speed fiber internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "City tour including Monserrate",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 108,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Bogotá experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Spanish language crash course",
-        "Day trip to Salt Cathedral of Zipaquirá",
-        "Coffee tasting experience",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Santa Marta pricing and packages
-const santaMarta = remoteCasaDestinations.find((d) => d.id === 5)
-if (santaMarta) {
-  santaMarta.startingPrice = "$1,499"
-  santaMarta.startingPriceNumeric = 1499
-  santaMarta.priceUnit = "month"
-  santaMarta.packages = [
-    {
-      id: 109,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Santa Marta with all the basics covered.",
-      included: [
-        "Private accommodation near the beach",
-        "Dedicated workspace with ocean views",
-        "High-speed internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "Guided tour of Tayrona National Park",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 110,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Santa Marta experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Lost City trek option",
-        "Beach club access",
-        "Sunset sailing experience",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Cancun pricing and packages
-const cancun = remoteCasaDestinations.find((d) => d.id === 6)
-if (cancun) {
-  cancun.startingPrice = "$1,499"
-  cancun.startingPriceNumeric = 1499
-  cancun.packages = [
-    {
-      id: 111,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Cancun with all the basics covered.",
-      included: [
-        "Private accommodation near the beach",
-        "Dedicated workspace with ocean views",
-        "High-speed internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "Guided tour of Chichen Itza",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 112,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Cancun experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Cenotes tour",
-        "Isla Mujeres day trip",
-        "Beach club access",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Santa Marta (Sandcastle) pricing and packages
-const santaMartaSandcastle = remoteCasaDestinations.find((d) => d.id === 7)
-if (santaMartaSandcastle) {
-  santaMartaSandcastle.startingPrice = "$1,499"
-  santaMartaSandcastle.startingPriceNumeric = 1499
-  santaMartaSandcastle.packages = [
-    {
-      id: 113,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Santa Marta with all the basics covered.",
-      included: [
-        "Private beachside accommodation",
-        "Dedicated workspace with ocean views",
-        "High-speed internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "Guided tour of Tayrona Park",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 114,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Santa Marta experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Lost City trek option",
-        "Beach club access",
-        "Sunset sailing experience",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Cartagena pricing and packages
-const cartagena = remoteCasaDestinations.find((d) => d.id === 8)
-if (cartagena) {
-  cartagena.startingPrice = "$1,499"
-  cartagena.startingPriceNumeric = 1499
-  cartagena.packages = [
-    {
-      id: 115,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Cartagena with all the basics covered.",
-      included: [
-        "Private accommodation in or near the walled city",
-        "Dedicated workspace",
-        "High-speed internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "Guided tour of the Walled City",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 116,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Cartagena experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Rosario Islands day trip",
-        "Getsemani neighborhood tour",
-        "Beach club access",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}
-
-// Update Tulum pricing and packages
-const tulum = remoteCasaDestinations.find((d) => d.id === 9)
-if (tulum) {
-  tulum.startingPrice = "$1,499"
-  tulum.startingPriceNumeric = 1499
-  tulum.packages = [
-    {
-      id: 117,
-      name: "Basic Package",
-      price: "$1,499",
-      duration: "1 month",
-      description: "Essential workation experience in Tulum with all the basics covered.",
-      included: [
-        "Private accommodation near the beach or in town",
-        "Dedicated workspace",
-        "High-speed internet",
-        "Airport pickup",
-        "Welcome dinner",
-        "Guided tour of Tulum Ruins",
-        "24/7 travel support",
-      ],
-    },
-    {
-      id: 118,
-      name: "Premium Package",
-      price: "$1,999",
-      duration: "1 month",
-      description: "Enhanced Tulum experience with premium amenities and additional activities.",
-      included: [
-        "All Basic Package inclusions",
-        "Weekly cleaning service",
-        "Cenotes tour",
-        "Sian Ka'an biosphere reserve trip",
-        "Beach club access",
-        "Premium workspace setup",
-        "Local SIM card with data",
-      ],
-    },
-  ]
-}

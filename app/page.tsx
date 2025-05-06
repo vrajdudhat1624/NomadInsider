@@ -20,7 +20,7 @@ const events = [
     date: "May 15, 2025",
     time: "18:00 - 21:00",
     attendees: 42,
-    image: "/placeholder.svg?height=200&width=300&text=Networking+Event",
+    image: "/images/events/nomad-meetup.jpg",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const events = [
     date: "May 20, 2025",
     time: "14:00 - 16:00",
     attendees: 128,
-    image: "/placeholder.svg?height=200&width=300&text=Remote+Workshop",
+    image: "/images/events/remote-workshop.jpg",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const events = [
     date: "May 25, 2025",
     time: "10:00 - 12:00",
     attendees: 18,
-    image: "/placeholder.svg?height=200&width=300&text=Coworking+Tour",
+    image: "/images/events/coworking-tour.jpg",
   },
 ]
 
@@ -51,7 +51,7 @@ const coworkingSpaces = [
     price: "Included in package",
     rating: 4.7,
     amenities: ["Fast WiFi", "Meeting Rooms", "Coffee", "Events"],
-    image: "/placeholder.svg?height=200&width=300&text=WeWork+Mexico+City",
+    image: "/images/coworking/wework-mexico-city.jpg",
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ const coworkingSpaces = [
     price: "Included in package",
     rating: 4.8,
     amenities: ["Pool", "Fast WiFi", "Coworking", "Community"],
-    image: "/placeholder.svg?height=200&width=300&text=Selina+Medellin",
+    image: "/images/coworking/selina-medellin.jpg",
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ const coworkingSpaces = [
     price: "Included in package",
     rating: 4.6,
     amenities: ["Beach Access", "Fast WiFi", "Coliving", "Events"],
-    image: "/placeholder.svg?height=200&width=300&text=Tulum+Nomad+House",
+    image: "/images/coworking/tulum-nomad-house.jpg",
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ const coworkingSpaces = [
     price: "Included in package",
     rating: 4.5,
     amenities: ["AC", "Fast WiFi", "Meeting Rooms", "City Views"],
-    image: "/placeholder.svg?height=200&width=300&text=Coworking+Cartagena",
+    image: "/images/coworking/coworking-cartagena.jpg",
   },
 ]
 
@@ -126,7 +126,7 @@ export default function HomePage() {
           </div>
           <div className="h-40 w-40 overflow-hidden rounded-lg bg-white shadow-md md:h-48 md:w-48">
             <Image
-              src="/placeholder.svg?height=200&width=200&text=Medellin"
+              src="/images/destinations/medellin-4k.png"
               alt="Medellín, Colombia"
               width={200}
               height={200}
@@ -219,7 +219,7 @@ export default function HomePage() {
             author="RemoteCasa Team"
             date="April 10, 2025"
             readTime="5 min read"
-            image="/placeholder.svg?height=400&width=600&text=Workation+Guide"
+            image="/images/insights/workation-guide.jpg"
           />
         </div>
       </section>

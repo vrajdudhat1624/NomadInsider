@@ -11,7 +11,7 @@ export default function ProfilePage() {
         <div className="relative h-40 w-full bg-gradient-to-r from-yellow-400 to-[#FFC700]">
           <div className="absolute -bottom-16 left-6 h-32 w-32 overflow-hidden rounded-full border-4 border-white bg-white">
             <Image
-              src="/placeholder.svg?height=128&width=128&text=John"
+              src="/images/profile/user-avatar.jpg"
               alt="User avatar"
               width={128}
               height={128}
